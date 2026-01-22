@@ -3146,21 +3146,24 @@ public class BamTimeKeeperHandler : MonoBehaviour {
         {
             { "Filename", "BamTimeKeeperSettings.json" },
             { "Name", "Bamboozling Time Keeper Settings" },
-            { "Listing", new List<Dictionary<string, object>>{
+            { "Listings", new List<Dictionary<string, object>>{
                 new Dictionary<string, object>
                 {
                     { "Key", "OneTapHolds" },
-                    { "Text", "Allows holding the button by just clicking on the button instead." }
+                    { "Text", "One Tap Holds" },
+                    { "Description", "Allows holding the button by just clicking on the button instead." }
                 },
                 new Dictionary<string, object>
                 {
                     { "Key", "EnableHardMode" },
-                    { "Text", "(unused) Enables a Crueler version of Bamboozling Time Keeper." }
+                    { "Text", "Enable Hard Mode" },
+                    { "Description", "(unused) Enables a Crueler version of Bamboozling Time Keeper." }
                 },
                 new Dictionary<string, object>
                 {
                     { "Key", "DisableStartUpLaugh" },
-                    { "Text", "Disables the start up laugh that plays when the module begins." }
+                    { "Text", "Disable Startup Laugh" },
+                    { "Description", "Disables the start up laugh that plays when the module begins." }
                 },
             } }
         }
